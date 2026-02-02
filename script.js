@@ -12,7 +12,7 @@ const celebrationGif = "elle2.gif";
 const rejectMessages = [
     "APPUIE SUR OUI",
     "ta pas trop le choix..​😢",
-    "j'ai pris tu tmps fait pas bleh stp..",
+    "j'ai pris du tmps fait pas bleh stp..",
     "tjr pas le bon hyn.. 🙏",
     "ca devient long..😢",
     "appuie sinon lvrt tu vas casser le bouton..​😵‍💫",
@@ -157,3 +157,4 @@ function playSong() {
     playBtn.textContent = '⏸';
 
 }
+
