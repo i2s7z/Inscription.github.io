@@ -1,12 +1,12 @@
 // === CONFIGURATION ===
 // Tu peux changer les chansons ici (met tes propres URLs)
 const songs = [
-    { name: "sleyyy😘​", url: "musique/musique 2.mp3" },
-    { name: "t'inquite 😉", url: "musique/musique 1.mp3" },
+    { name: "sleyyy😘​", url: "musique 2.mp3" },
+    { name: "t'inquite 😉", url: "musique 1.mp3" },
 ];
 
 // Tu peux changer le GIF ici
-const celebrationGif = "image/elle2.gif";
+const celebrationGif = "elle2.gif";
 
 // Messages quand on clique sur Non
 const rejectMessages = [
@@ -155,4 +155,5 @@ function playSong() {
     audio.play();
     isPlaying = true;
     playBtn.textContent = '⏸';
+
 }
